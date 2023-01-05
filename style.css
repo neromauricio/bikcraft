@@ -1,3 +1,7 @@
-p{
-    color: blue;
+body{
+    margin: 0px;
+}
+
+.header-bg{
+    background-color: #000000;
 }
