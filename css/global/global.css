@@ -6,7 +6,7 @@ body{
 }
 
 /* tirando a margem pra encostar o preto da main com o do header */
-h1, ul, p{
+h1, h2, h3, h4, ul, p{
     margin: 0px;
 }
 
@@ -25,3 +25,9 @@ img{
     max-width: 100%;
     display: block;
 }
+
+img[src$=".jpg"]{
+    border-radius: 4px;
+}
+
+/* este é um seletor para determinar que apenas as imagens .jpeg vão receber o estilo border-radius 4px, as SVG (da marca bikcraft, por exemplo) não vão */
