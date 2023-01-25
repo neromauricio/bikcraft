@@ -18,6 +18,10 @@
     /* a função " overflow: scroll; " cria um scroll apenas para uma determinada função, ou seja, nesse caso aqui apenas para os itens do UL */
 }
 
+#bicicleta .bicicletas-lista ul{
+    padding: 0px 0px 20px 0px;
+}
+
 .bicicletas-lista li {
     min-width: 280px;
 }
