@@ -12,7 +12,8 @@ h4,
 ul,
 p,
 blockquote,
-dd {
+dd,
+input {
   margin: 0px;
 }
 
